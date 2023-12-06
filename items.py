@@ -11,6 +11,7 @@ class Selectors():
         #Bet is the actual goal needed
         self.Bet = Bet
 
+#Odds are for MoneyLine only
 class GamblingItem(scrapy.Item):
     Site = scrapy.Field()
     Sport = scrapy.Field()
